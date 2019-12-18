@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sacrament_Planner.Models;
 
 namespace Sacrament_Planner.Migrations
 {
     [DbContext(typeof(Sacrament_PlannerContext))]
-    partial class Sacrament_PlannerContextModelSnapshot : ModelSnapshot
+    [Migration("20191218171453_Speakers-Test")]
+    partial class SpeakersTest
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,7 +92,7 @@ namespace Sacrament_Planner.Migrations
                     b.Property<int>("SacramentID")
                         .HasColumnType("int");
 
-                    b.Property<int>("Sacrament_PlanID")
+                    b.Property<int?>("Sacrament_PlanID")
                         .HasColumnType("int");
 
                     b.Property<string>("Subject")
@@ -109,9 +111,7 @@ namespace Sacrament_Planner.Migrations
                 {
                     b.HasOne("Sacrament_Planner.Models.Sacrament_Plan", null)
                         .WithMany("Speakers")
-                        .HasForeignKey("Sacrament_PlanID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Sacrament_PlanID");
                 });
 #pragma warning restore 612, 618
         }

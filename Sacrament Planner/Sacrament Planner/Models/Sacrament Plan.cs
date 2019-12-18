@@ -29,7 +29,7 @@ namespace Sacrament_Planner.Models
         [StringLength(50)]
         [Display(Name = "Closing Song")]
         public string ClosingSong { get; set; }
-        [StringLength(50)]
+        [StringLength(100)]
         [Display(Name = "Musical Number")]
         public string MusicalNumber { get; set; }
         [StringLength(50)]
