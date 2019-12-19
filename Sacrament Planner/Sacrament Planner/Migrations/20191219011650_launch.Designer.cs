@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sacrament_Planner.Models;
 
 namespace Sacrament_Planner.Migrations
 {
     [DbContext(typeof(Sacrament_PlannerContext))]
-    partial class Sacrament_PlannerContextModelSnapshot : ModelSnapshot
+    [Migration("20191219011650_launch")]
+    partial class launch
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
