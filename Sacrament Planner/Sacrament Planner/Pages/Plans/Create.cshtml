@@ -3,7 +3,7 @@
 
 @{
     ViewData["Title"] = "Create";
-
+}
 
     <script>
         function addFields(elementID, linkID) {
@@ -24,7 +24,7 @@
             }
         }
     </script>
-
+    
     <div class="card" style="max-width: 400px; margin: 2rem auto;">
         <div class="card-body">
             <h1>Create</h1>
@@ -180,6 +180,6 @@
             @section Scripts {
                 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
             }
-            }
+            
         </div>
     </div>
