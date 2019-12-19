@@ -5,86 +5,49 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].MeetingDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].ConductingLeader)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].OpeningSong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].SacramentHymn)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].ClosingSong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].MusicalNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].IntermediateHymn)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].OpeningPrayer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].ClosingPrayer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sacrament_Plan[0].NumberOfSpeakers)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Sacrament_Plan) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.MeetingDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ConductingLeader)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OpeningSong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SacramentHymn)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClosingSong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MusicalNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IntermediateHymn)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OpeningPrayer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClosingPrayer)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfSpeakers)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="jumbotron">
+    <h1 class="display-4">Sacrament Planner</h1>
+    <p class="lead">Build your sacrament planner here. Just click Create New below</p>
+    <hr class="my-4">
+    <p>You can see your previous plans below.</p>
+    <button class="btn btn-primary btn-lg" role="button"><a asp-page="Create" class="text-white">Create New</a></button>
+</div>
+
+
+<div class="card">
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Sacrament_Plan[0].MeetingDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Sacrament_Plan[0].ConductingLeader)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Sacrament_Plan)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MeetingDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ConductingLeader)
+                        </td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

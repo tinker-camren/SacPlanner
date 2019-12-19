@@ -134,3 +134,139 @@ C:\Users\CNTin\source\repos\SacPlanner\Sacrament Planner\Sacrament Planner\obj\D
 C:\Users\CNTin\source\repos\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Details.cshtml.g.cs
 C:\Users\CNTin\source\repos\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Edit.cshtml.g.cs
 C:\Users\CNTin\source\repos\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Index.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\appsettings.Development.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\appsettings.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.exe
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.deps.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.runtimeconfig.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.runtimeconfig.dev.json
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.pdb
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.Views.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Sacrament Planner.Views.pdb
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.csprojAssemblyReference.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\staticwebassets\Sacrament Planner.StaticWebAssets.Manifest.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\staticwebassets\Sacrament Planner.StaticWebAssets.xml
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.MvcApplicationPartsAssemblyInfo.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.RazorAssemblyInfo.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.RazorAssemblyInfo.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.AssemblyInfoInputs.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.AssemblyInfo.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.TagHelpers.input.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.TagHelpers.output.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.RazorCoreGenerate.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Error.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Index.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Create.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Delete.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Details.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Edit.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Plans\Index.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Privacy.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Speakers\Create.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Speakers\Delete.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Speakers\Details.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Speakers\Edit.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\Speakers\Index.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewImports.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Razor\Pages\_ViewStart.cshtml.g.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.RazorTargetAssemblyInfo.cache
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.RazorTargetAssemblyInfo.cs
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.Views.pdb
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.csproj.CopyComplete
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.dll
+Z:\SacPlanner\Sacrament Planner\Sacrament Planner\obj\Debug\netcoreapp3.0\Sacrament Planner.pdb
