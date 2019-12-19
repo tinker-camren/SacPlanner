@@ -25,157 +25,161 @@
         }
     </script>
 
-    <h1>Create</h1>
+    <div class="card" style="max-width: 400px; margin: 2rem auto;">
+        <div class="card-body">
+            <h1>Create</h1>
 
-    <h4>Sacrament_Plan</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
-            <form method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.MeetingDate" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.MeetingDate" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.MeetingDate" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.ConductingLeader" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.ConductingLeader" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.ConductingLeader" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.OpeningSong" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.OpeningSong" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.OpeningSong" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.SacramentHymn" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.SacramentHymn" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.SacramentHymn" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.ClosingSong" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.ClosingSong" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.ClosingSong" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.MusicalNumber" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.MusicalNumber" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.MusicalNumber" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.IntermediateHymn" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.IntermediateHymn" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.IntermediateHymn" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.OpeningPrayer" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.OpeningPrayer" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.OpeningPrayer" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Sacrament_Plan.ClosingPrayer" class="control-label"></label>
-                    <input asp-for="Sacrament_Plan.ClosingPrayer" class="form-control" />
-                    <span asp-validation-for="Sacrament_Plan.ClosingPrayer" class="text-danger"></span>
-                </div>
+            <h4>Sacrament Plan</h4>
+            <hr />
+            <div class="row">
+                <div class="col-md-6">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.MeetingDate" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.MeetingDate" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.MeetingDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.ConductingLeader" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.ConductingLeader" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.ConductingLeader" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.OpeningSong" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.OpeningSong" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.OpeningSong" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.SacramentHymn" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.SacramentHymn" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.SacramentHymn" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.ClosingSong" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.ClosingSong" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.ClosingSong" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.MusicalNumber" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.MusicalNumber" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.MusicalNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.IntermediateHymn" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.IntermediateHymn" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.IntermediateHymn" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.OpeningPrayer" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.OpeningPrayer" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.OpeningPrayer" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Sacrament_Plan.ClosingPrayer" class="control-label"></label>
+                            <input asp-for="Sacrament_Plan.ClosingPrayer" class="form-control" />
+                            <span asp-validation-for="Sacrament_Plan.ClosingPrayer" class="text-danger"></span>
+                        </div>
 
-                <!-- Code for 1st speaker -->
-                <div class="form-group">
-                    <a href="#speakerDiv1" id="link1" onclick="addFields('speakerDiv1', 'link1'); showLink('link2')">Add Speaker</a>
-                </div>
-                <div class="form-group" id="speakerDiv1" style="display:none">
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[0].Name" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[0].Name" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[0].Name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[0].Subject" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[0].Subject" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[0].Subject" class="text-danger"></span>
-                    </div>
-                </div>
+                        <!-- Code for 1st speaker -->
+                        <div class="form-group">
+                            <a href="#speakerDiv1" id="link1" onclick="addFields('speakerDiv1', 'link1'); showLink('link2')">Add Speaker</a>
+                        </div>
+                        <div class="form-group" id="speakerDiv1" style="display:none">
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[0].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[0].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[0].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[0].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[0].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[0].Subject" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <!-- Code for 2nd speaker -->
-                <div class="form-group">
-                    <a href="#HiddenSpeakersDiv" style="display:none" id="link2" onclick="addFields('speakerDiv2', 'link2'); showLink('link3')">Add Speaker</a>
-                </div>
-                <div class="form-group" id="speakerDiv2" style="display:none">
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[1].Name" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[1].Name" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[1].Name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[1].Subject" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[1].Subject" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[1].Subject" class="text-danger"></span>
-                    </div>
-                </div>
+                        <!-- Code for 2nd speaker -->
+                        <div class="form-group">
+                            <a href="#HiddenSpeakersDiv" style="display:none" id="link2" onclick="addFields('speakerDiv2', 'link2'); showLink('link3')">Add Speaker</a>
+                        </div>
+                        <div class="form-group" id="speakerDiv2" style="display:none">
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[1].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[1].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[1].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[1].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[1].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[1].Subject" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <!-- Code for 3rd speaker -->
-                <div class="form-group">
-                    <a href="#HiddenSpeakersDiv" style="display:none" id="link3" onclick="addFields('speakerDiv3', 'link3'); showLink('link4')">Add Speaker</a>
-                </div>
-                <div class="form-group" id="speakerDiv3" style="display:none">
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[2].Name" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[2].Name" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[2].Name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[2].Subject" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[2].Subject" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[2].Subject" class="text-danger"></span>
-                    </div>
-                </div>
+                        <!-- Code for 3rd speaker -->
+                        <div class="form-group">
+                            <a href="#HiddenSpeakersDiv" style="display:none" id="link3" onclick="addFields('speakerDiv3', 'link3'); showLink('link4')">Add Speaker</a>
+                        </div>
+                        <div class="form-group" id="speakerDiv3" style="display:none">
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[2].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[2].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[2].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[2].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[2].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[2].Subject" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <!-- Code for 4th speaker -->
-                <div class="form-group">
-                    <a href="#HiddenSpeakersDiv" style="display:none" id="link4" onclick="addFields('speakerDiv4', 'link4'); showLink('link5')">Add Speaker</a>
-                </div>
-                <div class="form-group" id="speakerDiv4" style="display:none">
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[3].Name" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[3].Name" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[3].Name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[3].Subject" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[3].Subject" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[3].Subject" class="text-danger"></span>
-                    </div>
-                </div>
+                        <!-- Code for 4th speaker -->
+                        <div class="form-group">
+                            <a href="#HiddenSpeakersDiv" style="display:none" id="link4" onclick="addFields('speakerDiv4', 'link4'); showLink('link5')">Add Speaker</a>
+                        </div>
+                        <div class="form-group" id="speakerDiv4" style="display:none">
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[3].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[3].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[3].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[3].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[3].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[3].Subject" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <!-- Code for 5th speaker -->
-                <div class="form-group">
-                    <a href="#HiddenSpeakersDiv" style="display:none" id="link5" onclick="addFields('speakerDiv5', 'link5')">Add Speaker</a>
-                </div>
-                <div class="form-group" id="speakerDiv5" style="display:none">
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[4].Name" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[4].Name" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[4].Name" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Sacrament_Plan.Speakers[4].Subject" class="control-label"></label>
-                        <input asp-for="Sacrament_Plan.Speakers[4].Subject" class="form-control" />
-                        <span asp-validation-for="Sacrament_Plan.Speakers[4].Subject" class="text-danger"></span>
-                    </div>
-                </div>
+                        <!-- Code for 5th speaker -->
+                        <div class="form-group">
+                            <a href="#HiddenSpeakersDiv" style="display:none" id="link5" onclick="addFields('speakerDiv5', 'link5')">Add Speaker</a>
+                        </div>
+                        <div class="form-group" id="speakerDiv5" style="display:none">
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[4].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[4].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[4].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[4].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[4].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[4].Subject" class="text-danger"></span>
+                            </div>
+                        </div>
 
-                <div class="form-group">
-                    <input type="submit" value="Create" class="btn btn-primary" />
+                        <div class="form-group">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
+
+            <div>
+                <a asp-page="Index">Back to List</a>
+            </div>
+
+            @section Scripts {
+                @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+            }
+            }
         </div>
     </div>
-
-    <div>
-        <a asp-page="Index">Back to List</a>
-    </div>
-
-    @section Scripts {
-        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    }
-}
