@@ -51,9 +51,8 @@ namespace Sacrament_Planner.Pages.Plans
 
             //Start nonsense
 
-            // Added this nonsense because it kept duplicating the speakers in the list
-            // every time you edited and saved the Sacrament_Plan. This checks for null
-            // values and duplicates and only adds them back to the plan if it all checks out
+            // Added this so that null values aren't entered into the table. Had to add it here and remove
+            // it from the model so that things don't break
 
             var planToUpdate = await _context.Sacrament_Plan.FindAsync(id);
             
