@@ -24,22 +24,38 @@ namespace Sacrament_Planner.Pages.Plans
         }
 
         [BindProperty]
-        public Sacrament_Plan Sacrament_Plan { get; set; }
+        public Sacrament_Plan Sacrament_Plan { get; set; }        
 
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            //for (var i = 0; i <= Sacrament_Plan.NumberOfSpeakers; i++)
-            //{
-            //    Speaker speaker = new Speaker();
-            //    speaker.Name
-            //}
+            //Start nonsense
+
+            //Added this nonsense so that I could remove the [Required]
+            //parameter from the Speaker model class so that the hidden 
+            //divs don't throw exceptions on post. This prevents
+            //null values from going into the speaker table
+
+            List<Speaker> speakers = new List<Speaker>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (Sacrament_Plan.Speakers[i].Name != null && Sacrament_Plan.Speakers[i].Subject != null)
+                {
+                    speakers.Add(Sacrament_Plan.Speakers[i]);
+                }
+            }
+
+            Sacrament_Plan.Speakers = speakers;
+
+            //End nonsense
 
             _context.Sacrament_Plan.Add(Sacrament_Plan);
             await _context.SaveChangesAsync();

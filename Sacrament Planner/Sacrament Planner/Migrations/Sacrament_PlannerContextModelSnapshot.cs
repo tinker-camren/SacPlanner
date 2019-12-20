@@ -77,28 +77,23 @@ namespace Sacrament_Planner.Migrations
 
             modelBuilder.Entity("Sacrament_Planner.Models.Speaker", b =>
                 {
-                    b.Property<int>("SpeakerID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
-
-                    b.Property<int>("SacramentID")
-                        .HasColumnType("int");
 
                     b.Property<int>("Sacrament_PlanID")
                         .HasColumnType("int");
 
                     b.Property<string>("Subject")
-                        .IsRequired()
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.HasKey("SpeakerID");
+                    b.HasKey("ID");
 
                     b.HasIndex("Sacrament_PlanID");
 

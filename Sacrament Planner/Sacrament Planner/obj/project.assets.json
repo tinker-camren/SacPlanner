@@ -8124,23 +8124,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\atlas\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\CNTin\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\SacPlanner\\Sacrament Planner\\Sacrament Planner\\Sacrament Planner.csproj",
+      "projectUniqueName": "C:\\Users\\CNTin\\Source\\Repos\\SacPlanner2\\Sacrament Planner\\Sacrament Planner\\Sacrament Planner.csproj",
       "projectName": "Sacrament Planner",
-      "projectPath": "Z:\\SacPlanner\\Sacrament Planner\\Sacrament Planner\\Sacrament Planner.csproj",
-      "packagesPath": "C:\\Users\\atlas\\.nuget\\packages\\",
-      "outputPath": "Z:\\SacPlanner\\Sacrament Planner\\Sacrament Planner\\obj\\",
+      "projectPath": "C:\\Users\\CNTin\\Source\\Repos\\SacPlanner2\\Sacrament Planner\\Sacrament Planner\\Sacrament Planner.csproj",
+      "packagesPath": "C:\\Users\\CNTin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CNTin\\Source\\Repos\\SacPlanner2\\Sacrament Planner\\Sacrament Planner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\atlas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CNTin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

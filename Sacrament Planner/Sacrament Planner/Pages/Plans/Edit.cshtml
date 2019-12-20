@@ -5,6 +5,26 @@
     ViewData["Title"] = "Edit";
 }
 
+<script>
+    function addFields(elementID, linkID) {
+        var x = document.getElementById(elementID);
+        var y = document.getElementById(linkID);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.innerHTML = "Hide Speaker"
+        } else {
+            x.style.display = "none";
+            y.innerHTML = "Show Speaker"
+        }
+    }
+    function showLink(linkID) {
+        var y = document.getElementById(linkID);
+        if (y.style.display === "none") {
+            y.style.display = "block";
+        }
+    }
+</script>
+
     <div class="card" style="max-width: 400px; margin: 2rem auto;">
         <div class="card-body">
             <h1>Edit</h1>
@@ -61,11 +81,21 @@
                             <input asp-for="Sacrament_Plan.ClosingPrayer" class="form-control" />
                             <span asp-validation-for="Sacrament_Plan.ClosingPrayer" class="text-danger"></span>
                         </div>
-                        <div class="form-group">
-                            <label asp-for="Sacrament_Plan.NumberOfSpeakers" class="control-label"></label>
-                            <input asp-for="Sacrament_Plan.NumberOfSpeakers" class="form-control" />
-                            <span asp-validation-for="Sacrament_Plan.NumberOfSpeakers" class="text-danger"></span>
-                        </div>
+                        @for (var i = 0; i < (Model.Sacrament_Plan.Speakers.Count()); i++)
+                        {
+                            <input type="hidden" asp-for="Sacrament_Plan.Speakers[i].ID" />
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[i].Name" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[i].Name" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[i].Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Sacrament_Plan.Speakers[i].Subject" class="control-label"></label>
+                                <input asp-for="Sacrament_Plan.Speakers[i].Subject" class="form-control" />
+                                <span asp-validation-for="Sacrament_Plan.Speakers[i].Subject" class="text-danger"></span>
+                            </div>
+                        }
+
                         <div class="form-group">
                             <input type="submit" value="Save" class="btn btn-primary" />
                         </div>

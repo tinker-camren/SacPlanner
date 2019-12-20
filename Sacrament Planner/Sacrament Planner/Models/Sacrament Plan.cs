@@ -43,10 +43,8 @@ namespace Sacrament_Planner.Models
         [StringLength(50)]
         [Display(Name = "Closing Prayer")]
         public string ClosingPrayer { get; set; }
-        [Required]
-        [Range(0,10)]
-        [Display(Name = "Number Of Speakers")]
         public int NumberOfSpeakers { get; set; }
+        public List<Speaker> speakers = new List<Speaker>(5);
         public List<Speaker> Speakers { get; set; }
 
     }
